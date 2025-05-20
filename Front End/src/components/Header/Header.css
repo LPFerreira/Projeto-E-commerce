@@ -1,0 +1,180 @@
+header {
+  max-width: 100%;
+  background-color: rgba(194, 160, 59, 0.902);
+  position: fixed;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  margin: auto;
+}
+.subHeader nav {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: black;
+}
+.notification-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 4px;
+  position: relative;
+  top: -6px;
+  right: 6px;
+}
+
+.message-link {
+  position: relative;
+}
+
+
+.subHeader a {
+  text-decoration: none;
+  position: relative;
+  padding: 10px 10px 20px 20px;
+  font-size: 20px;
+  color: #fff;
+}
+.subHeader a:hover {
+color:  rgba(243, 245, 243, 0.52);
+}
+
+header .logo {
+  position: relative;
+  color: rgb(8, 8, 8);
+  margin-right: 50px;
+  font-weight: 600;
+  font-size: 60px;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+header .logo:hover {
+  color: rgba(243, 245, 243, 0.895);
+}
+
+header a {
+  text-decoration: none;
+  position: relative;
+  margin-right: 40px;
+  font-size: 25px;
+}
+
+header a:hover {
+  color: rgba(243, 245, 243, 0.52);
+}
+
+.bntSignUp {
+  background-color: #c69421;
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  border: 0;
+  font-size: 22px;
+  margin-left: 150px;
+
+}
+
+.bntSignUp:hover {
+  background-color:  rgba(243, 245, 243, 0.52);
+}
+
+.bntLogin {
+  background-color: #c9ae6e;
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  border: 0;
+  font-size: 22px;
+  left: 150px;
+}
+
+.bntLogin:hover {
+  background-color: rgba(243, 245, 243, 0.52);
+}
+
+/* media (601px a 1024px)*/
+
+@media screen and (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .bntSignUp, .bntLogin {
+    font-size: 18px;
+    width: 90px;
+    height: 40px;
+  }
+
+  .subHeader a {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+/* media (até 600px)*/
+
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    align-items: flex-start;
+  }
+
+  .logo {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  header a {
+    font-size: 20px;
+    margin-right: 0;
+  }
+
+  .bntSignUp, .bntLogin {
+    width: 100%;
+    font-size: 18px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .subHeader nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .subHeader a {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}
+

@@ -1,0 +1,54 @@
+.container {
+    margin-top: 100px;
+    width: 900px;
+    height: 600px;
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+.nome, .email, .password {
+    width: 500px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    outline: none;
+    background-color: #EDF1F6;
+}
+.bntForm {
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 25px;
+    background-color: #0f0f0f;
+    color: #fff;
+    border: 0;
+}
+.navButton a {
+    text-decoration: none;
+    position: relative;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 25px;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+.bntForm:hover {
+    background-color: #177706;
+}
+
+

@@ -1,0 +1,45 @@
+.home-container {
+width: 1440px;
+}
+.home-container h1 {
+text-align: center;
+margin: 50px 10px 50px 10px;
+}
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.filters select {
+  min-width: 150px;
+}
+.product-list {
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.product-card {
+  
+  margin: 50px 35px 20px 30px;
+  width: 230px;
+  height: 340px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+.product-card>img {
+  width: 230px;
+  height: 220px;
+  object-fit: cover;
+}

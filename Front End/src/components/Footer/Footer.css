@@ -1,0 +1,40 @@
+#redesociais {
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 550px;
+
+}
+
+.footer {
+    background-color: #171616;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 200px 0 0px 0px
+}
+
+.footer ul {
+    list-style: none;
+    margin-left: 250px;
+}
+
+.footer li  {
+    font-size: 16px;
+    line-height: 28.13px;
+    color: #fff;
+}
+
+.sobre {
+    
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+.sobre:hover {
+    color: rgba(255, 255, 255, 0.484);
+}
+li h2 {
+    margin-top: 50px;
+    margin-left: 500px;
+}
